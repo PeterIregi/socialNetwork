@@ -57,3 +57,9 @@ func home(w http.ResponseWriter, r *http.Request) {
 
 //lets try to add a database to our server and create a table in the database
 //first we will create a datbase file with the extension .db
+
+
+// today we will learn what migration is and how it helps us.
+//first we will create a migrate dir then create two file one for the up migration and one for the down migration.
+//after installing golang-migrate run the following commnd to create a new migration file 
+//now that the file have been created one for up an one for down migration we will add the sql statements to create a table in the up migration file and the sql statements to drop the table in the down migration file.
